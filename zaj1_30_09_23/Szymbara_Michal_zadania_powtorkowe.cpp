@@ -34,10 +34,12 @@ void zadanie_1()
         cout << "Podano liczby spoza przedzialu, uruchom ponownie program.";
         system("PAUSE");
     }
-
-    for(int i = max(num1,num2); i >= min(num1,num2); i--)
+    else
     {
-        cout << i << endl;
+        for(int i = max(num1,num2); i >= min(num1,num2); i--)
+        {
+            cout << i << endl;
+        }
     }
 }
 
@@ -172,6 +174,7 @@ void zadanie_4()
     cout << "Suma elementów nieparzystych wynosi: " << sumaNieparzysta << endl;
 
     //podpunkt: d
+    //Zakładam, że liczba na indexie 0 jest liczbą na miejscu nieparzystym (pierwszym)
     int sumaNieparzystaNaMiejscachParzystych = 0;
 
     for(int i = 1; i < 8; i += 2)
