@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"*.embeddedhtml": "html",
+			"iostream": "cpp",
+			"cmath": "cpp",
+			"ostream": "cpp"
+		}
+	}
 }
